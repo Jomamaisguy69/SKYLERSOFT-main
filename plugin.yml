@@ -1,18 +1,18 @@
 #name, main, version and api are required
-name: ExamplePlugin
+name: plugin1
 main: ExamplePlugin\MainClass
 src-namespace-prefix: ExamplePlugin
 version: 1.2.0
 api: 4.0.0
 
 load: POSTWORLD
-author: PocketMine Team
+author: amlskysoft Team
 description: Example plugin showing the new API
 website: https://github.com/pmmp/ExamplePlugin
 commands:
   example:
-    description: Example command
-    usage: "/example"
+    description: say
+    usage: "/say2 [say: string]"
     permission: exampleplugin.command.example
 permissions:
   exampleplugin.command.example:
